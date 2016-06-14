@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         mDragLayout.setOnStatusDragListener(new DragLayout.OnStatusDragListener() {
             @Override
             public void onDragging(float percent) {
-                //Utils.showToast(getApplicationContext(), "onDragging");
+                Utils.showToast(getApplicationContext(), "onDragging");
             }
 
             @Override
