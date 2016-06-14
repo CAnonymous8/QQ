@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
             @Override
             public void onDragging(float percent) {
                 Utils.showToast(getApplicationContext(), "onDragging");
+                System.out.println("主分支--onDragging");
             }
 
             @Override
