@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
             @Override
             public void onOpen() {
                 Utils.showToast(getApplicationContext(), "onOpen");
+                System.out.println("onopen");
             }
         });
     }
